@@ -25,7 +25,7 @@ import people02 from "./dilip.jpg";
 import people03 from "./rithu.jpg";
 import people05 from "./driroshan.png";
 import people06 from "./mrbhathiya.jpeg";
-import people04 from "./drnalaka.png";
+import people04 from "../public/assets/drnalaka.png";
 import python from "./python.png";
 import tensorflow from "./tensorflow.png";
 import numpy from "./numpy.png";
