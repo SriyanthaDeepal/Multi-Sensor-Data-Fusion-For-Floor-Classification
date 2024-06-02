@@ -4,7 +4,7 @@ import FeedbackCard from "./FeedbackCard";
 const Testimonials: React.FC = () => (
   <section
     id="clients"
-    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative sm:mt-10`}
+    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative sm:mt-10 mb-20`}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
     <div className="w-full flex flex-col items-center text-center sm:mb-10 mb-6 relative z-[1]">

@@ -8,7 +8,7 @@ const Billing: React.FC = () => (
       <h2 className={styles.heading2}>
         About Our Project 
       </h2>
-      <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph2} max-w-[700px] mt-5`}>
       Our research focuses on creating a robust terrain classification system for 
       autonomous robots by integrating data from both camera and LiDAR sensors. Leveraging 
       decision-level fusion techniques, we combine the strengths of Convolutional Neural Networks (CNNs) 
@@ -22,7 +22,7 @@ const Billing: React.FC = () => (
       <Image
         src={bill}
         alt="billing"
-        className="w-[40%] h-[40%] relative z-[5]"
+        className="w-[35%] h-[90%] relative z-[5]"
       />
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
