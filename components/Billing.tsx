@@ -8,7 +8,7 @@ const Billing: React.FC = () => (
       <h2 className={styles.heading2}>
         About Our Project 
       </h2>
-      <p className={`${styles.paragraph2} max-w-[700px] mt-5`}>
+      <p className={`${styles.paragraph2} max-w-[700px] mt-5 mr-10`}>
       Our research focuses on creating a robust terrain classification system for 
       autonomous robots by integrating data from both camera and LiDAR sensors. Leveraging 
       decision-level fusion techniques, we combine the strengths of Convolutional Neural Networks (CNNs) 

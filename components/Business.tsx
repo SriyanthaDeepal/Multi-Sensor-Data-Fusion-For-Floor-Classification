@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FeatredCardProps } from "@types";
 
 const FeaturesCard: React.FC<FeatredCardProps> = ({ icon, title, content, index }) => (
-  <div className={`flex flex-row w-[1000px] h-[80px] p-2 rounded-[20px] ${index !== features.length - 1 ? "mb-1" : "mb-0" } feature-card`}>
+  <div className={`flex flex-row w-[1000px] h-[80px] p-2 rounded-[20px] ml-5 ${index !== features.length - 1 ? " mb-1" : "mb-0" } feature-card`}>
     <div className={`w-[35px] h-[35px] rounded-full bg-dimBlue ${styles.flexCenter}`}>
       <Image src={icon} alt="icon" className="w-[40%] h-[40%] object-contain" />
     </div>
